@@ -50,4 +50,4 @@ class Car(models.Model):
         ordering = ("model",)
 
     def __str__(self):
-        return f"manufacturer: {self.manufacturer} model: {self.model}"
+        return f"{self.manufacturer} {self.model}"
